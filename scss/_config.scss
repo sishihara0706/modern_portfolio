@@ -2,8 +2,8 @@ $primary-color: rgb(68, 68, 68);
 $secondary-color: rgb(206, 28, 242);
 $blueviolet-color: rgb(124, 47, 196);
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.8;
+$home-image: url(../img/homebg.jpg);
+$background-opacity: 0.9;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
