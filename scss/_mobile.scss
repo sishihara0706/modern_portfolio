@@ -69,11 +69,27 @@
 
 // Smartphones
 @include mediaSm {
+  main#home,
+  main#contact {
+    padding: 2rem;
+  }
+
   main#home h1 {
     margin-top: 10vh;
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  ul.menu-nav {
+    padding-top: 4rem;
+    justify-content: flex-start;
+  }
+
+  .boxes div {
+    width: 100%;
+    // overflow: scroll;
+    overflow-wrap: break-word;
   }
 }
